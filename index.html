@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="dark">
 
 <head>
   <meta charset="UTF-8">
@@ -10,22 +10,25 @@
   <meta name="keywords" content="adamatt">
 
   <link href="https://fonts.googleapis.com/css?family=Nunito:400,700,800" rel="stylesheet">
-	<link rel="shortcut icon" href="logo.png" type="image/x-icon">
+	<link rel="shortcut icon" href="logo-adamatt.png" type="image/x-icon">
 
-  <link rel="stylesheet" href="https://unpkg.com/tailwindcss/dist/tailwind.min.css" />
+  <link rel="stylesheet" href="styles.css" />
 </head>
 
-<body class="leading-normal tracking-normal text-indigo-400 m-6 bg-cover bg-fixed">
-  
-  <section class="text-blueGray-700 ">
-    <div class="container flex flex-col items-center px-5 py-8 mx-auto">
-      <div class="flex flex-col w-full mb-12 text-left lg:text-center">
-        <h2 class="mb-8 text-xs font-semibold tracking-widest text-black uppercase title-font">adamatt.fr</h2>
-        <h1 class="mx-auto mb-12 text-2xl font-semibold leading-none tracking-tighter text-black lg:w-1/2 sm:text-6xl title-font">ADAMATT. Le plus MATT de tout les Adam.</h1>
-        <a class="mx-auto mt-8 text-sm font-semibold text-blue-600 hover:text-black" href="https://github.com/Adamatt/">Voir le profil Github >> </a>
-      </div>
+<body class="dark:bg-gray-800">
+  <header class="h-screen relative">
+		<div class="h-screen flex items-center justify-center">
+			<div class="mx-2 text-center">
+        <div class="container">
+          <img src="logo-adamatt.png" class="mx-auto w-1/4">
+        </div>
+				<h1 class="font-bold text-4xl xs:text-5xl md:text-6xl">
+					<span class="text-black dark:text-white">ADAMATT,</span></h1>
+           <h2 class="mx-auto mb-12 text-2xl font-semibold leading-none tracking-tighter text-indigo-600 lg:w-1/2 sm:text-6xl title-font">Le plus MATT de tout les ADAM.</h2>
+           <a class="mx-auto mt-8 text-sm font-semibold text-blue-600 hover:text-black dark:hover:text-blue-800" href="https://github.com/Adamatt/">Voir le profil Github >> </a>
+        </div>
     </div>
-  </section>
+</header>
 </body>
 
 </html>
